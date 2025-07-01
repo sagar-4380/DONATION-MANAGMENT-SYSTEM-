@@ -1,0 +1,29 @@
+1. # Open the VS Code
+2. # Open the Command Promt
+3. # Run  The Command Promt C:\Users\Your User Name\anaconda3\Scripts\activate
+4. # Run sql Command in (base) C:\Users\Your User Name\anaconda3\Scripts\activate
+
+5. # (base)
+           sqlite3 donations.db
+           SELECT * FROM donations;
+
+
+
+
+
+
+# sql Table Code
+
+ # CODE
+# import sqlite3
+
+# conn = sqlite3.connect('donations.db')
+# cursor = conn.cursor()
+
+# cursor.execute('SELECT * FROM donations')
+# rows = cursor.fetchall()
+
+# for row in rows:
+#     print(row)
+
+# conn.close()
